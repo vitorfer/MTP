@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <complex.h>
+
+int main()
+{
+	double complex soma;
+	double num_real, num_img, produto;
+ 	printf("Entren respectivamente com os valores dos numeros real e imaginario:");
+	scanf("%lf%lf",&num_real,&num_img);
+
+	soma = num_real + num_img;
+        produto = cabs(soma);
+
+	printf("%f \nA resposta do produto de seu conjugado eh:", produto);
+	return 0;
+}
