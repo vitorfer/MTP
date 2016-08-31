@@ -8,7 +8,7 @@ int main()
  	printf("Entren respectivamente com os valores dos numeros real e imaginario:");
 	scanf("%lf%lf",&num_real,&num_img);
 
-	soma = num_real + num_img;
+	soma = num_real + num_img*I;
         produto = cabs(soma);
 
 	printf("%f \nA resposta do produto de seu conjugado eh:", produto);
