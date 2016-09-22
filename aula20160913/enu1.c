@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define MOSTRABOOL(X) ({printf("%s\n", (x)? "Verdadeiro":"Falso"); })
+#define MOSTRABOOL(x) ({printf("%s\n", (x)? "Verdadeiro":"Falso"); })
 typedef enum { false = 0, true = 1 } bool;
 int main() {
 bool V = true;

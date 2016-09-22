@@ -5,7 +5,7 @@ union Uniao{
 };
 int main() {
     union Uniao numero;
-    char opocao;
+    char opcao;
     do {
         printf("Voce quer entrar com (i)nt ou (f)loat? ");
         scanf("%c", &opcao);
