@@ -1,0 +1,47 @@
+﻿Build started 22/11/2016 11:15:09.
+     1>Project "C:\Users\1E30\Documents\MTP\aula20161122\ProjGUI\ProjGUI\ProjGUI.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\ProjGUI.unsuccessfulbuild".
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\ProjGUI.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt ProjGUI.cpp /clr:nostdlib 
+         ProjGUI.cpp
+     1>ProjGUI.cpp(6): error C2143: syntax error : missing ';' before 'using'
+     1>c:\users\1e30\documents\mtp\aula20161122\projgui\projgui\Form1.h(111): error C2039: 'txbusuario_TextChanged' : is not a member of 'ProjGUI::Form1'
+                 c:\users\1e30\documents\mtp\aula20161122\projgui\projgui\Form1.h(15) : see declaration of 'ProjGUI::Form1'
+     1>c:\users\1e30\documents\mtp\aula20161122\projgui\projgui\Form1.h(111): error C2065: 'txbusuario_TextChanged' : undeclared identifier
+     1>c:\users\1e30\documents\mtp\aula20161122\projgui\projgui\Form1.h(111): error C3350: 'System::EventHandler' : a delegate constructor expects 2 argument(s)
+     1>c:\users\1e30\documents\mtp\aula20161122\projgui\projgui\Form1.h(122): error C2039: 'chknome_CheckedChanged' : is not a member of 'ProjGUI::Form1'
+                 c:\users\1e30\documents\mtp\aula20161122\projgui\projgui\Form1.h(15) : see declaration of 'ProjGUI::Form1'
+     1>c:\users\1e30\documents\mtp\aula20161122\projgui\projgui\Form1.h(122): error C2065: 'chknome_CheckedChanged' : undeclared identifier
+     1>c:\users\1e30\documents\mtp\aula20161122\projgui\projgui\Form1.h(122): error C3350: 'System::EventHandler' : a delegate constructor expects 2 argument(s)
+     1>c:\users\1e30\documents\mtp\aula20161122\projgui\projgui\Form1.h(133): error C2039: 'checkBox2_CheckedChanged' : is not a member of 'ProjGUI::Form1'
+                 c:\users\1e30\documents\mtp\aula20161122\projgui\projgui\Form1.h(15) : see declaration of 'ProjGUI::Form1'
+     1>c:\users\1e30\documents\mtp\aula20161122\projgui\projgui\Form1.h(133): error C2065: 'checkBox2_CheckedChanged' : undeclared identifier
+     1>c:\users\1e30\documents\mtp\aula20161122\projgui\projgui\Form1.h(133): error C3350: 'System::EventHandler' : a delegate constructor expects 2 argument(s)
+     1>c:\users\1e30\documents\mtp\aula20161122\projgui\projgui\Form1.h(201): error C2039: 'radioButton2_CheckedChanged' : is not a member of 'ProjGUI::Form1'
+                 c:\users\1e30\documents\mtp\aula20161122\projgui\projgui\Form1.h(15) : see declaration of 'ProjGUI::Form1'
+     1>c:\users\1e30\documents\mtp\aula20161122\projgui\projgui\Form1.h(201): error C2065: 'radioButton2_CheckedChanged' : undeclared identifier
+     1>c:\users\1e30\documents\mtp\aula20161122\projgui\projgui\Form1.h(201): error C3350: 'System::EventHandler' : a delegate constructor expects 2 argument(s)
+     1>c:\users\1e30\documents\mtp\aula20161122\projgui\projgui\Form1.h(230): error C2039: 'Form1_Load' : is not a member of 'ProjGUI::Form1'
+                 c:\users\1e30\documents\mtp\aula20161122\projgui\projgui\Form1.h(15) : see declaration of 'ProjGUI::Form1'
+     1>c:\users\1e30\documents\mtp\aula20161122\projgui\projgui\Form1.h(230): error C2065: 'Form1_Load' : undeclared identifier
+     1>c:\users\1e30\documents\mtp\aula20161122\projgui\projgui\Form1.h(230): error C3350: 'System::EventHandler' : a delegate constructor expects 2 argument(s)
+     1>c:\users\1e30\documents\mtp\aula20161122\projgui\projgui\Form1.h(244): error C2143: syntax error : missing ';' before 'private'
+     1>c:\users\1e30\documents\mtp\aula20161122\projgui\projgui\Form1.h(244): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\1e30\documents\mtp\aula20161122\projgui\projgui\Form1.h(246): error C2143: syntax error : missing ';' before 'private'
+     1>c:\users\1e30\documents\mtp\aula20161122\projgui\projgui\Form1.h(246): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\1e30\documents\mtp\aula20161122\projgui\projgui\Form1.h(248): error C2143: syntax error : missing ';' before 'private'
+     1>c:\users\1e30\documents\mtp\aula20161122\projgui\projgui\Form1.h(248): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\1e30\documents\mtp\aula20161122\projgui\projgui\Form1.h(250): error C2143: syntax error : missing ';' before 'private'
+     1>c:\users\1e30\documents\mtp\aula20161122\projgui\projgui\Form1.h(250): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\1e30\documents\mtp\aula20161122\projgui\projgui\Form1.h(252): error C2143: syntax error : missing ';' before 'private'
+     1>c:\users\1e30\documents\mtp\aula20161122\projgui\projgui\Form1.h(252): error C2143: syntax error : missing ';' before '{'
+     1>ProjGUI.cpp(19): fatal error C1075: end of file found before the left brace '{' at 'c:\users\1e30\documents\mtp\aula20161122\projgui\projgui\Form1.h(3)' was matched
+     1>Done Building Project "C:\Users\1E30\Documents\MTP\aula20161122\ProjGUI\ProjGUI\ProjGUI.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.67
