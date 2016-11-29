@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "caculadora", "caculadora\caculadora.vcxproj", "{081F7802-F1CF-4AD4-B3C7-D3A2C4BD5537}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{081F7802-F1CF-4AD4-B3C7-D3A2C4BD5537}.Debug|Win32.ActiveCfg = Debug|Win32
+		{081F7802-F1CF-4AD4-B3C7-D3A2C4BD5537}.Debug|Win32.Build.0 = Debug|Win32
+		{081F7802-F1CF-4AD4-B3C7-D3A2C4BD5537}.Release|Win32.ActiveCfg = Release|Win32
+		{081F7802-F1CF-4AD4-B3C7-D3A2C4BD5537}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
