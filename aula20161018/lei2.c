@@ -2,36 +2,28 @@
 #include <stdlib.h>
 #include <string.h>
 #include <locale.h>
-#include <time.h>
 
 void ler_arq(nome_arq);
 
 int main(){
     setlocale(LC_ALL, "Portuguese");
-    srand(time(0));
-    char nome[256];
-    int num;
+    char nome_arquivo[256];
     printf("\n=============LER INFORMAÇÕES DE UM ARQUIVO============\n");
     printf("Entre com o nome do arquivo e a sua extensão:\n");
-    gets(nome);
-    printf("Entre com a quantidade de informações do arquivo:\n");
-    scanf("%i", &num);
-    criar(num, nome);
+    gets(nome_arquivo);
+    ler_arq(nome_arquivo);
     return 0;
 }
 
-void criar(int num, char nome[256]){
+void ler_arq(nome_arq){
     FILE * arquivo;
     int i;
-    int f;
-    arquivo = fopen(nome, "w");
+    float f;
+    arquivo = fopen(nome_arq, "r");
     if(arquivo){
-        fprintf(arquivo ,"- ");
-        for(i = 0; i < num; i++){
-        f = rand()%200;
-        fprintf(arquivo, "%d - ", f);
-        }
+        fscanf(arquivo, "%d\t%f", &i, &f);
         fclose(arquivo);
+        fprintf(stdout, "%d\t%f", i, f);
     }
     else{
         fprintf(stderr, "Arquivo com erro!\n");
